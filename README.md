@@ -40,6 +40,19 @@ The artifact directory preserves generated scaffold originals and supplies corre
 
 [checks/pycaret_shap.py](checks/pycaret_shap.py) exercises summary and correlation plots. [checks/pycaret_drift.py](checks/pycaret_drift.py) exercises Evidently's explicit computation/export API, replacing PyCaret 3.3.2's incomplete wrapper. They require the compatible notebook environment. Packaging checks their syntax; the supplemental local recovery is documented separately.
 
+## Walkthrough video
+
+[All six notebook walkthroughs (2:25:46)](https://youtu.be/F-qA48twpWA) — uploaded; YouTube processing and playback verification are pending.
+
+| Part | Start |
+|---|---|
+| K-means | [0:00](https://youtu.be/F-qA48twpWA?t=0) |
+| AutoGluon capabilities | [31:45](https://youtu.be/F-qA48twpWA?t=1905) |
+| AutoGluon end-to-end | [55:04](https://youtu.be/F-qA48twpWA?t=3304) |
+| RAPIDS | [1:16:49](https://youtu.be/F-qA48twpWA?t=4609) |
+| PyCaret capabilities | [1:42:40](https://youtu.be/F-qA48twpWA?t=6160) |
+| PyCaret MLOps | [2:00:21](https://youtu.be/F-qA48twpWA?t=7221) |
+
 ## Publication still pending
 
 - Publish narrated walkthroughs and add verified video links. Local rendered videos are separate from this repository package.
