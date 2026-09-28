@@ -2,9 +2,9 @@
 
 [Combined narrated walkthrough](https://youtu.be/F-qA48twpWA) — 2 hours 25 minutes, six notebooks.
 
-YouTube processing and playback verification are pending. These timestamps come from the verified combined video file; online playback has not yet been checked.
+The unlisted video is available in 1080p, with its six main chapter markers verified. All 161 detailed timestamps below come from the fully decoded, synchronized source video.
 
-Live execution proof is captured for 4 of 6 notebooks (01–04). Capture for 05 and 06 is pending. Those separate clips are not linked here because they have not been uploaded.
+[Live Colab checks for all six parts](https://drive.google.com/file/d/1V8m1zPYLUwUyXDUEMisuqoQ2oOL-8i_a/view) are a separate 3:09 video of selected-cell reruns. These do not claim six additional complete native executions; banner and rerun limitations are described in the main README.
 
 The links below cover all 161 narration segments.
 

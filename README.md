@@ -2,7 +2,7 @@
 
 Bernie Miao · Fall 2026
 
-**Assignment package, September 28, 2026.** All six full runs finished on hosted Google Colab: **615 code cells executed, zero uncaught errors**. The notebooks preserve the actual outputs, plots, and execution counts. The main walkthrough is uploaded. Two supplemental PyCaret live clips and final playback checks remain. Canvas submission is left to the student.
+**Assignment package, September 28, 2026.** All six full runs finished on hosted Google Colab: **615 code cells executed, zero uncaught errors**. The notebooks preserve the actual outputs, plots, and execution counts. The narrated walkthrough and all six supplemental live execution checks are published below. Canvas submission is left to the student.
 
 ## Six parts
 
@@ -34,6 +34,8 @@ Zero uncaught errors means the cells completed; guarded skips and fallbacks rema
 
 K-means uses a CPU runtime. RAPIDS needs the demonstrated T4 environment. AutoGluon and PyCaret used dedicated Python 3.11 environments; PyCaret 3.3.2 uses the pinned setup cell and SHAP 0.44.1 compatibility fixes. Run setup and subsequent cells in order. The older Colab runtime selector `2025.07` was observed on September 27; menus can change, so saved Python versions and setup pins are the reproducibility reference.
 
+**Native Colab first install:** After the pinned PyCaret setup finishes in runtime `2025.07`, choose **Runtime → Restart session**, then **Run all**. Installing the pinned NumPy version can leave the previously loaded binary in memory. The September 28 native MLOps attempt hit `numpy.dtype size changed` (expected 96, got 88) when importing pandas; restart the session rather than add more dependencies. The completed dedicated Python 3.11 CLI runs above are separate from this native first-install setup step.
+
 The original MLOps hosted VM expired before its temporary model and HTML exports were recovered. **A separate local rerun on September 28 recovered the artifacts**, with all 136 cells completing. [Supplemental local artifacts](artifacts/mlops-local-recovery/README.md) include fitted pipelines, computed Evidently HTML reports, and plot galleries. Their provenance is local, not the same hosted run; primary notebook outputs remain unchanged.
 
 The artifact directory preserves generated scaffold originals and supplies corrected Python 3.11 API/Docker scaffolding. Local HTTP prediction and input-validation checks passed. The future target `overspent_next` is excluded; current-month `overspent` remains a legitimate predictor. No container was built and no endpoint deployed. Printed temporary paths in notebook outputs are historical, not working links.
@@ -42,7 +44,7 @@ The artifact directory preserves generated scaffold originals and supplies corre
 
 ## Walkthrough video
 
-[All six notebook walkthroughs (2:25:46)](https://youtu.be/F-qA48twpWA) — uploaded as unlisted; public metadata is available. Full playback/checks verification is pending.
+[All six notebook walkthroughs (2:25:46)](https://youtu.be/F-qA48twpWA) — unlisted, with anonymous access to 1080p formats and all six chapter markers verified. The complete local video passed decoding and audio/video synchronization checks.
 
 | Part | Start |
 |---|---|
@@ -53,13 +55,22 @@ The artifact directory preserves generated scaffold originals and supplies corre
 | PyCaret capabilities | [1:42:40](https://youtu.be/F-qA48twpWA?t=6160) |
 | PyCaret MLOps | [2:00:21](https://youtu.be/F-qA48twpWA?t=7221) |
 
-## Remaining verification
+## Live Colab execution checks
 
-- Verify YouTube playback and processing status. The full rendered MP4 passed local decode and synchronization checks.
-- Live selected-cell clips are captured for parts 1–4. PyCaret clips for parts 5–6 remain unrecorded; browser control was interrupted. Code/output stills are not live execution footage.
-- Canvas submission will be performed by the student.
+[All six live checks — 3:09](https://drive.google.com/file/d/1V8m1zPYLUwUyXDUEMisuqoQ2oOL-8i_a/view) · [Detailed narration chapter index](WALKTHROUGH.md)
 
-[Detailed chapter index](WALKTHROUGH.md) links every narrated segment.
+These are six continuous selected-cell reruns, with crops for readability. The longer walkthrough explains the code and outputs from the complete saved runs. Live rerun values can differ from archived results. Some clips show a read-only/save-conflict banner; the complete notebook artifacts above were saved separately. The MLOps clip follows a runtime restart after an earlier native-session crash and shows a successful prediction rerun, not another complete native execution.
+
+| Time | Live check |
+|---|---|
+| 0:00 | K-means numerical equivalence |
+| 0:30 | AutoGluon leaderboard and predictions |
+| 0:58.8 | AutoGluon evaluation agreement |
+| 1:28.8 | RAPIDS T4 sort benchmark |
+| 1:58.8 | PyCaret churn probabilities and report |
+| 2:38.8 | PyCaret household predictions |
+
+The shared evidence MP4 was retrieved anonymously and matched the local SHA-256. All six public Drive notebooks were also checked against the canonical files after recording. No Canvas submission has been made by the assistant; the student will submit the repository URL.
 
 ## Sources and checks
 

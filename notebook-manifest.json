@@ -20,7 +20,9 @@
       "saved_drive_access_check": {
         "accessible": true,
         "code_cells": 78,
-        "executed": 78
+        "executed": 78,
+        "errors": 0,
+        "canonical_bytes_match": true
       }
     },
     {
@@ -37,7 +39,9 @@
       "saved_drive_access_check": {
         "accessible": true,
         "code_cells": 84,
-        "executed": 84
+        "executed": 84,
+        "errors": 0,
+        "canonical_bytes_match": true
       }
     },
     {
@@ -54,7 +58,9 @@
       "saved_drive_access_check": {
         "accessible": true,
         "code_cells": 105,
-        "executed": 105
+        "executed": 105,
+        "errors": 0,
+        "canonical_bytes_match": true
       }
     },
     {
@@ -71,7 +77,9 @@
       "saved_drive_access_check": {
         "accessible": true,
         "code_cells": 118,
-        "executed": 118
+        "executed": 118,
+        "errors": 0,
+        "canonical_bytes_match": true
       }
     },
     {
@@ -88,7 +96,9 @@
       "saved_drive_access_check": {
         "accessible": true,
         "code_cells": 94,
-        "executed": 94
+        "executed": 94,
+        "errors": 0,
+        "canonical_bytes_match": true
       }
     },
     {
@@ -105,7 +115,9 @@
       "saved_drive_access_check": {
         "accessible": true,
         "code_cells": 136,
-        "executed": 136
+        "executed": 136,
+        "errors": 0,
+        "canonical_bytes_match": true
       }
     }
   ]
