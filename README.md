@@ -2,7 +2,7 @@
 
 Bernie Miao · Fall 2026
 
-**Assignment package, September 28, 2026.** All six full runs finished on hosted Google Colab: **615 code cells executed, zero uncaught errors**. The notebooks preserve the actual outputs, plots, and execution counts. Video publication, remaining live execution clips, and submission verification are still pending.
+**Assignment package, September 28, 2026.** All six full runs finished on hosted Google Colab: **615 code cells executed, zero uncaught errors**. The notebooks preserve the actual outputs, plots, and execution counts. The main walkthrough is uploaded. Two supplemental PyCaret live clips and final playback checks remain. Canvas submission is left to the student.
 
 ## Six parts
 
@@ -42,7 +42,7 @@ The artifact directory preserves generated scaffold originals and supplies corre
 
 ## Walkthrough video
 
-[All six notebook walkthroughs (2:25:46)](https://youtu.be/F-qA48twpWA) — uploaded; YouTube processing and playback verification are pending.
+[All six notebook walkthroughs (2:25:46)](https://youtu.be/F-qA48twpWA) — uploaded as unlisted; public metadata is available. Full playback/checks verification is pending.
 
 | Part | Start |
 |---|---|
@@ -53,13 +53,13 @@ The artifact directory preserves generated scaffold originals and supplies corre
 | PyCaret capabilities | [1:42:40](https://youtu.be/F-qA48twpWA?t=6160) |
 | PyCaret MLOps | [2:00:21](https://youtu.be/F-qA48twpWA?t=7221) |
 
-## Publication still pending
+## Remaining verification
 
-- Publish narrated walkthroughs and add verified video links. Local rendered videos are separate from this repository package.
-- Finish and label the remaining live Colab clips. Code/output stills are not live execution footage.
-- Verify final GitHub/Drive/video links and the course submission receipt.
+- Verify YouTube playback and processing status. The full rendered MP4 passed local decode and synchronization checks.
+- Live selected-cell clips are captured for parts 1–4. PyCaret clips for parts 5–6 remain unrecorded; browser control was interrupted. Code/output stills are not live execution footage.
+- Canvas submission will be performed by the student.
 
-Video upload and course submission remain pending.
+[Detailed chapter index](WALKTHROUGH.md) links every narrated segment.
 
 ## Sources and checks
 
