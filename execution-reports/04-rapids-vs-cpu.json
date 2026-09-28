@@ -1,0 +1,19 @@
+{
+  "file": "04-rapids-vs-cpu.ipynb",
+  "seconds": 472.67,
+  "nonempty_code_cells": 118,
+  "executed_code_cells": 118,
+  "errors": [],
+  "execution_failure": null,
+  "adaptations": [
+    {
+      "cell": 5,
+      "change": "Pass subset=cols to df.style.format to avoid ValueError on string columns under pandas 2.x."
+    },
+    {
+      "cell": 179,
+      "change": "Guard splitlines()[0] against empty exception message."
+    }
+  ],
+  "environment": "Google Colab Tesla T4"
+}

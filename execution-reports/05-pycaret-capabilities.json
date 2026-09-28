@@ -1,0 +1,19 @@
+{
+  "file": "05-pycaret-capabilities.ipynb",
+  "seconds": 350.26,
+  "nonempty_code_cells": 94,
+  "executed_code_cells": 94,
+  "errors": [],
+  "execution_failure": null,
+  "adaptations": [
+    {
+      "cell": 6,
+      "change": "Pass subset=cols to df.style.format to avoid ValueError on string columns under pandas 2.x."
+    },
+    {
+      "cell": 199,
+      "change": "Guard splitlines()[0] against empty exception message."
+    }
+  ],
+  "environment": "Google Colab CPU"
+}

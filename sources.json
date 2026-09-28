@@ -1,0 +1,32 @@
+[
+  {
+    "notebook": "01-kmeans-variations.ipynb",
+    "source": "https://colab.research.google.com/drive/1Ye2fCkgzbqhpZr7g5Z_DTSoAufkYW3jP",
+    "source_sha256": "f192408ce2d22ae956b917144df86c6a127cb11076e4ec2565782948b44ad77e"
+  },
+  {
+    "notebook": "02-autogluon-capabilities.ipynb",
+    "source": "https://colab.research.google.com/drive/12u1wvSBmeFr7wGVodVafpJJuE7bq35tM",
+    "source_sha256": "94392ef404b22cf6f7045082174982f1f3c1e2462feddf3782ecb043fd59b63b"
+  },
+  {
+    "notebook": "03-autogluon-end-to-end.ipynb",
+    "source": "https://colab.research.google.com/drive/1rMUbJIsFg9IvsLxcpqSyfuULlCkmBYQq",
+    "source_sha256": "48edfb33b50fc52fa45e5e4da4ff80e993cee5ca22d33a79561cc242647f119a"
+  },
+  {
+    "notebook": "04-rapids-vs-cpu.ipynb",
+    "source": "https://colab.research.google.com/drive/1Yb76g6biaSAWUNzToceC9G2QkZCAMnS3",
+    "source_sha256": "bef54f33f173a0aaa9b2e3d63821ef1e912cc6c3d6cbb16a10986ffec4a8a83a"
+  },
+  {
+    "notebook": "05-pycaret-capabilities.ipynb",
+    "source": "https://colab.research.google.com/drive/1OlqgjP5B45FvR4t6nzyLAGIedxpFMj8W",
+    "source_sha256": "a48151a709b73db0c47229864d0b5e50a41e5e4c28c960775a73fe7255a7a03c"
+  },
+  {
+    "notebook": "06-pycaret-mlops.ipynb",
+    "source": "https://colab.research.google.com/drive/1EIPQdCHnyvtj7WdyZh1SBbR7ruxEvUkg",
+    "source_sha256": "6634b2b9b6a68a2a2fe4dc444205b04e0a085da1b94abea69a9b2c5d33c75935"
+  }
+]

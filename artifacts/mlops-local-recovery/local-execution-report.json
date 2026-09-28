@@ -1,0 +1,18 @@
+{
+  "file": "06-pycaret-mlops.ipynb",
+  "seconds": 441.85,
+  "nonempty_code_cells": 136,
+  "executed_code_cells": 136,
+  "errors": [],
+  "execution_failure": null,
+  "adaptations": [
+    {
+      "cell": 252,
+      "change": "Guard splitlines()[0] against empty exception message."
+    }
+  ],
+  "environment": "LOCAL macOS Python 3.11.15",
+  "date": "2026-09-28",
+  "purpose": "Supplemental artifact recovery; separate from the hosted Colab run",
+  "notebook_sha256": "03362c3af37b0061056670cb3d93f361d6f9745ce74fcf6da719572de260ec69"
+}

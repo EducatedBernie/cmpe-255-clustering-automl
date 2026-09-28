@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-28",
+  "provenance": "LOCAL supplemental rerun, separate from hosted Colab evidence",
+  "python": "3.11.15",
+  "pycaret": "3.3.2",
+  "run_cells": 136,
+  "uncaught_errors": 0,
+  "target": "overspent_next",
+  "current_month_predictor": "overspent",
+  "validation": {
+    "valid_http_request": 200,
+    "future_target_rejected": 422,
+    "missing_fields_rejected": 422,
+    "invalid_household_size_rejected": 422,
+    "nonfinite_income_rejected": 422,
+    "script_syntax": "passed",
+    "private_path_or_credential_candidates": 0,
+    "docker_build": "not performed",
+    "deployment": "not performed",
+    "clean_linux_install": "not performed",
+    "requirements_dry_run_existing_environment": "passed",
+    "requirements_environment_caveat": "Unrelated preinstalled mlflow-tracing requires Pydantic2; API requirements exclude that optional package."
+  },
+  "files": [
+    {
+      "path": "Dockerfile",
+      "sha256": "502eeccff3de4a1f237701a3afb7b829e0b32bff951194c40869674f730d6607",
+      "bytes": 346
+    },
+    {
+      "path": "README.md",
+      "sha256": "c5384b5481ac7d6f49db5a00965347c897842363132cd75c4795fd6faeb97586",
+      "bytes": 2678
+    },
+    {
+      "path": "check_api.py",
+      "sha256": "d43ee89e1b2cb4b63c837da696c83b7527a7761a401534be92757efde6932f04",
+      "bytes": 1187
+    },
+    {
+      "path": "drift_report.html",
+      "sha256": "c9f863bd076b14281a5436abe6146a750b501bbed0566f678ea10faa1fedf481",
+      "bytes": 3474770
+    },
+    {
+      "path": "generated-original/Dockerfile",
+      "sha256": "c710d99aed371e7bc6504c81dec0774412ba5ef2d6aea25553d3da733414a68f",
+      "bytes": 253
+    },
+    {
+      "path": "generated-original/overspend_api.py",
+      "sha256": "807ec9ccec4317120d9c4b9520fb1c23d69a892a329cc650182466c0434f29c2",
+      "bytes": 1181
+    },
+    {
+      "path": "generated-original/requirements.txt",
+      "sha256": "e9c73f76e23fd5e793bcbbc4ddb7c6b10797a7c534d382785c53e9ca7c05a0af",
+      "bytes": 65
+    },
+    {
+      "path": "local-execution-report.json",
+      "sha256": "c9920226ad9fa9defd7816d7b3e7fa9e0d8b93af3cd1415360318f55bb4adcf3",
+      "bytes": 536
+    },
+    {
+      "path": "overspend_api.pkl",
+      "sha256": "2cbbb4add2e02d26f8e25dbc898f77bed304f67eb8e37efd055fe922119cfc84",
+      "bytes": 10336
+    },
+    {
+      "path": "overspend_api.py",
+      "sha256": "44ee254c11bf1ca580e3bfc14b04960329b1157ebd61f20cc2caa1884086ecbe",
+      "bytes": 1305
+    },
+    {
+      "path": "overspend_pipeline.pkl",
+      "sha256": "2cbbb4add2e02d26f8e25dbc898f77bed304f67eb8e37efd055fe922119cfc84",
+      "bytes": 10336
+    },
+    {
+      "path": "plots/classification/AUC.png",
+      "sha256": "d41a1fe479605ba89524a3dd9dbf914f1788bb5cdd5830ae2892bd6aaf852587",
+      "bytes": 50510
+    },
+    {
+      "path": "plots/classification/Calibration Curve.png",
+      "sha256": "03b8b03a4a84254f11df702e5c7ed0cbfbb23fee25e96c5c135ddedcbcc38f76",
+      "bytes": 35179
+    },
+    {
+      "path": "plots/classification/Class Report.png",
+      "sha256": "310a0eabd909a914c5cd6b32d45eebda2a9e56d371ba5bb19f62521f713509dd",
+      "bytes": 23048
+    },
+    {
+      "path": "plots/classification/Confusion Matrix.png",
+      "sha256": "e53921e58702814c11e0200882936fd42fac1389c40626cfb865a9a34214ab2c",
+      "bytes": 21909
+    },
+    {
+      "path": "plots/classification/Decision Boundary.png",
+      "sha256": "ba4b46a2e41c128f8eb221b2f93beccb13a8c6d1445321875e03014908634734",
+      "bytes": 33691
+    },
+    {
+      "path": "plots/classification/Feature Importance.png",
+      "sha256": "e3400bc491be1d19be49382f3b15171036f66fd7dbed5792111110a94d844f72",
+      "bytes": 27583
+    },
+    {
+      "path": "plots/classification/Learning Curve.png",
+      "sha256": "3b3cad7118a66515b71ad4c4164d3138d3792334e6276f08103e4948f886bf21",
+      "bytes": 46809
+    },
+    {
+      "path": "plots/classification/Precision Recall.png",
+      "sha256": "b06dfd8f016bc45d933342ef14123fbed9e6ba1427a4faff0b3002dea9822bd1",
+      "bytes": 23599
+    },
+    {
+      "path": "plots/classification/Threshold.png",
+      "sha256": "019d0a7d7a925db5b7513bb4ad8c3069b9f0535b6c2a31d90b5d78752149abcd",
+      "bytes": 84240
+    },
+    {
+      "path": "plots/mlops/Learning Curve.png",
+      "sha256": "62ff986d360eeaedf06a07cfa227d6664f1de2297429f57fd81e8c6b68e88659",
+      "bytes": 37695
+    },
+    {
+      "path": "plots/mlops/Validation Curve.png",
+      "sha256": "714c8abc7c7212e0543c8f152a24f2cdebfafe772ce0f23eaa73343e23d4b270",
+      "bytes": 50149
+    },
+    {
+      "path": "plots/regression/Feature Importance.png",
+      "sha256": "f5477f27cbefbf4f8287fc9a540359c6e639229b36d2262704e5729825a2a2aa",
+      "bytes": 26463
+    },
+    {
+      "path": "plots/regression/Learning Curve.png",
+      "sha256": "a53504b136fc84d1daefff06a89eaef58d2d7444ba0df806a5fe22eac5a33b7f",
+      "bytes": 44074
+    },
+    {
+      "path": "plots/regression/Prediction Error.png",
+      "sha256": "13e88ac45ebf169cb17abe7d1b1e5c57c410f14b9b879384cc7e92fc29472624",
+      "bytes": 58472
+    },
+    {
+      "path": "plots/regression/Residuals.png",
+      "sha256": "4c04b5ad1d597a3e0be569dd26485361d903480a47e1f7840c44adfd078c2914",
+      "bytes": 104916
+    },
+    {
+      "path": "plots/regression/SHAP correlation.png",
+      "sha256": "040f83bb14a539b5c12cadd2e4f54d191bb0249a9770e09e4ac77574ea4bd9d4",
+      "bytes": 32263
+    },
+    {
+      "path": "plots/regression/SHAP summary.png",
+      "sha256": "2b60b5d726219a95c71460e9ba46e80b0e9982e79efb3bb3bbfce6a9cabec853",
+      "bytes": 88237
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "2aab03106dbabe5f0443e52d541a250dfea9e2f94c6a121e567b437b64c5b186",
+      "bytes": 206
+    },
+    {
+      "path": "train_test_drift.html",
+      "sha256": "91b1ecd3b338631ce356f97ff5b476be146e31b19ddbf80f52a01f5c46c795b0",
+      "bytes": 3478271
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-28",
+  "status": "Notebook and artifact package prepared for publication; videos and submission pending",
+  "checks": {
+    "six_reference_hashes_match": true,
+    "six_notebooks_byte_identical_to_canonical": true,
+    "six_reports_byte_identical_to_canonical": true,
+    "outputs_and_execution_counts_retained": true,
+    "executed_code_cells": 615,
+    "uncaught_error_outputs": 0,
+    "check_scripts_parse": true,
+    "file_allowlist_pass": true,
+    "credential_pattern_candidates": 0,
+    "credential_scan_scope": "Textual notebook content and JSON metadata; binary image payloads excluded.",
+    "supplemental_artifacts_manifest_and_private_path_scan": true,
+    "six_saved_drive_checks_complete": true,
+    "file_allowlist_scope": "Original21packagefiles plus files explicitly listed by supplemental artifact manifest and its manifest file"
+  },
+  "pending": [
+    "Video publication and remaining live execution clips",
+    "Repository publication and course submission verification"
+  ],
+  "actions_not_taken": [
+    "repository creation",
+    "git push",
+    "video upload",
+    "course submission"
+  ],
+  "supplemental_artifact_recovery": {
+    "source": "local rerun 2026-09-28 Python3.11.15",
+    "executed_cells": 136,
+    "uncaught_errors": 0,
+    "path": "artifacts/mlops-local-recovery",
+    "http_validation": "passed",
+    "docker_build": "not performed",
+    "deployment": "not performed"
+  }
+}

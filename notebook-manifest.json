@@ -1,0 +1,112 @@
+{
+  "checked_date": "2026-09-28",
+  "canonical_source_directory": "../executed",
+  "total_code_cells": 615,
+  "total_executed_code_cells": 615,
+  "uncaught_error_outputs": 0,
+  "copy_policy": "Byte-for-byte canonical notebook and execution-report copies; outputs retained.",
+  "notebooks": [
+    {
+      "notebook": "01-kmeans-variations.ipynb",
+      "reference_sha256": "f192408ce2d22ae956b917144df86c6a127cb11076e4ec2565782948b44ad77e",
+      "executed_sha256": "9f7e8d5506efb889f2ae3e284a6a6f3277893d99829332c9f0d53959997d234d",
+      "package_sha256": "9f7e8d5506efb889f2ae3e284a6a6f3277893d99829332c9f0d53959997d234d",
+      "code_cells": 78,
+      "executed_code_cells": 78,
+      "output_entries": 154,
+      "error_outputs": 0,
+      "environment": "Google Colab CPU",
+      "colab_url": "https://colab.research.google.com/drive/1mlXccGdzstrfbzD5J9NkWm_Ti86hJ-de",
+      "saved_drive_access_check": {
+        "accessible": true,
+        "code_cells": 78,
+        "executed": 78
+      }
+    },
+    {
+      "notebook": "02-autogluon-capabilities.ipynb",
+      "reference_sha256": "94392ef404b22cf6f7045082174982f1f3c1e2462feddf3782ecb043fd59b63b",
+      "executed_sha256": "3db4df94131a449ddf65e49466720a7f05dbd41879075d564a0a65c64e410bc1",
+      "package_sha256": "3db4df94131a449ddf65e49466720a7f05dbd41879075d564a0a65c64e410bc1",
+      "code_cells": 84,
+      "executed_code_cells": 84,
+      "output_entries": 277,
+      "error_outputs": 0,
+      "environment": "Google Colab CPU",
+      "colab_url": "https://colab.research.google.com/drive/13sugjsxIdoIncE7nM-IIFFgGH-64r-E4",
+      "saved_drive_access_check": {
+        "accessible": true,
+        "code_cells": 84,
+        "executed": 84
+      }
+    },
+    {
+      "notebook": "03-autogluon-end-to-end.ipynb",
+      "reference_sha256": "48edfb33b50fc52fa45e5e4da4ff80e993cee5ca22d33a79561cc242647f119a",
+      "executed_sha256": "79e1fddbc6eda2aeb222dddf712ed53b40ff07cfb834ef1ed19b0472f298bdf6",
+      "package_sha256": "79e1fddbc6eda2aeb222dddf712ed53b40ff07cfb834ef1ed19b0472f298bdf6",
+      "code_cells": 105,
+      "executed_code_cells": 105,
+      "output_entries": 254,
+      "error_outputs": 0,
+      "environment": "Google Colab CPU",
+      "colab_url": "https://colab.research.google.com/drive/1BKO8BVRLEacSZVholMpQflodWgb82-u9",
+      "saved_drive_access_check": {
+        "accessible": true,
+        "code_cells": 105,
+        "executed": 105
+      }
+    },
+    {
+      "notebook": "04-rapids-vs-cpu.ipynb",
+      "reference_sha256": "bef54f33f173a0aaa9b2e3d63821ef1e912cc6c3d6cbb16a10986ffec4a8a83a",
+      "executed_sha256": "b46181a66c48ab92e5e9b20e57ffac253e1336a27cd0b941af148627b63803a0",
+      "package_sha256": "b46181a66c48ab92e5e9b20e57ffac253e1336a27cd0b941af148627b63803a0",
+      "code_cells": 118,
+      "executed_code_cells": 118,
+      "output_entries": 240,
+      "error_outputs": 0,
+      "environment": "Google Colab Tesla T4",
+      "colab_url": "https://colab.research.google.com/drive/1lBMnXMjlzkcUx2sbRPcQ5bU-sbfxGIag",
+      "saved_drive_access_check": {
+        "accessible": true,
+        "code_cells": 118,
+        "executed": 118
+      }
+    },
+    {
+      "notebook": "05-pycaret-capabilities.ipynb",
+      "reference_sha256": "a48151a709b73db0c47229864d0b5e50a41e5e4c28c960775a73fe7255a7a03c",
+      "executed_sha256": "6862cc313b945806666579db848d82fb4a7f601b12231317de7bcc6788ca8d27",
+      "package_sha256": "6862cc313b945806666579db848d82fb4a7f601b12231317de7bcc6788ca8d27",
+      "code_cells": 94,
+      "executed_code_cells": 94,
+      "output_entries": 321,
+      "error_outputs": 0,
+      "environment": "Google Colab CPU",
+      "colab_url": "https://colab.research.google.com/drive/1uCm73GPFZ0D5XlmldpEeV1Tmj5S3umqq",
+      "saved_drive_access_check": {
+        "accessible": true,
+        "code_cells": 94,
+        "executed": 94
+      }
+    },
+    {
+      "notebook": "06-pycaret-mlops.ipynb",
+      "reference_sha256": "6634b2b9b6a68a2a2fe4dc444205b04e0a085da1b94abea69a9b2c5d33c75935",
+      "executed_sha256": "42a4c39f8c6c927c885d87bd306e8d36fab8753ba1784fef804cacf70d797a7d",
+      "package_sha256": "42a4c39f8c6c927c885d87bd306e8d36fab8753ba1784fef804cacf70d797a7d",
+      "code_cells": 136,
+      "executed_code_cells": 136,
+      "output_entries": 368,
+      "error_outputs": 0,
+      "environment": "Google Colab CPU",
+      "colab_url": "https://colab.research.google.com/drive/13sI9xz9yIenx0nwW3YSm6Y0wDWWoJiHy",
+      "saved_drive_access_check": {
+        "accessible": true,
+        "code_cells": 136,
+        "executed": 136
+      }
+    }
+  ]
+}

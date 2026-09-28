@@ -1,0 +1,15 @@
+{
+  "file": "06-pycaret-mlops.ipynb",
+  "seconds": 323.8,
+  "nonempty_code_cells": 136,
+  "executed_code_cells": 136,
+  "errors": [],
+  "execution_failure": null,
+  "adaptations": [
+    {
+      "cell": 252,
+      "change": "Guard splitlines()[0] against empty exception message."
+    }
+  ],
+  "environment": "Google Colab CPU"
+}
